@@ -89,6 +89,11 @@ footer img {
 	padding: 0 5px;
 }
 
+article img {
+	width: 100%;
+	height: auto;
+}
+
 /* index.html specific */
 #skills figure {
 	display: flex;
