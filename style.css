@@ -50,6 +50,11 @@ form {
 	flex-direction: column;
 }
 
+article img {
+	width: 100%;
+	height: auto;
+}
+
 /* navigation box (top) */
 nav {
 	display: flex;
@@ -87,11 +92,6 @@ footer img {
 	width: auto;
 	height: auto;
 	padding: 0 5px;
-}
-
-article img {
-	width: 100%;
-	height: auto;
 }
 
 /* index.html specific */
