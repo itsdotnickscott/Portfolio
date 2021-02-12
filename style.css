@@ -1,30 +1,83 @@
 @charset "utf-8";
 
+/* general tags */
 body {
 	background-color: #282a36;
 	color: #f1f8f2;
+	margin: 20px;
 }
 
-header {
+header, footer, #skills figure {
 	background-color: #21222c;
-}
-
-nav {
-	display: flex;
-	justify-content: flex-start;
 }
 
 ul {
 	list-style: none;
-	font-family: "Space Mono"
+	padding: 0;
+}
+
+li, h4 {
+	font-family: "Space Mono";
+}
+
+h1 {
+	font-family: Lobster;
+	font-size: calc(15px + 6vw);
+}
+
+h1, h6 {
+	font-weight: normal;
+}
+
+h4 {
+	font-variant-ligatures: none;
+	margin: 0;
+	padding-top: 5vw;
+}
+
+h6 {
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+p, figcaption, h6 {
+	font-family: Montserrat;
+}
+
+figcaption {
+	padding-top: 5px;
+	font-size: calc(10px + 0.2vw);
+	text-align: center;
+}
+
+footer figure {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+footer figure img {
+	max-width: 30px;
+	max-height: 30px;
+	width: auto;
+	height: auto;
+	padding: 0 5px;
 }
 
 #intro {
 	font-size: calc(10px + 0.5vw);
 }
 
+/* navigation box (top) */
+nav {
+	display: flex;
+	justify-content: flex-start;
+}
+
 nav ul {
 	list-style: none;
+	padding-left: 20px;
 }
 
 nav ul li {
@@ -36,11 +89,29 @@ nav ul li a {
 	color: #ff79bd;
 }
 
-h1 {
-	font-family: Lobster;
-	font-weight: normal;
-	font-size: calc(15px + 6vw);
-	padding-left: 5vw;
+/* skills (index.html) */
+section figure {
+	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	margin: 0 5px 0 0;
+	
+}
+
+section figure figure {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 10px 5px;
+	flex-direction: column;
+	
+}
+
+section figure figure img {
+	max-width: 50px;
+	max-height: 50px;
+	width: auto;
+	height: auto;
 }
 
 /* these classes are used to color text something other than white */
