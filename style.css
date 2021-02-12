@@ -1,3 +1,69 @@
 @charset "utf-8";
-/* CSS Document */
 
+body {
+	background-color: #282a36;
+	color: #f1f8f2;
+}
+
+header {
+	background-color: #21222c;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+}
+
+ul {
+	list-style: none;
+	font-family: "Space Mono"
+}
+
+#intro {
+	font-size: calc(10px + 0.5vw);
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	margin-bottom: calc(5px + 0.5vw);
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #ff79bd;
+}
+
+h1 {
+	font-family: Lobster;
+	font-weight: normal;
+	font-size: calc(15px + 6vw);
+	padding-left: 5vw;
+}
+
+/* these classes are used to color text something other than white */
+.pink {
+	color: #ff79bd;
+}
+
+.purple {
+	color: #bd93f9;
+}
+
+.yellow {
+	color: #f1fa8c;
+}
+
+.green {
+	color: #50fa7b;
+}
+
+.blue {
+	color: #62728b;
+}
+
+.orange {
+	color: #ffb86c;
+}
