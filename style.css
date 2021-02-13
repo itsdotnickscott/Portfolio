@@ -35,7 +35,7 @@ h4 {
 	padding-top: 5vw;
 }
 
-p, figcaption, h6 {
+p, figcaption, h6, button {
 	padding: 5px 0;
 	font-family: Montserrat, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
