@@ -100,7 +100,6 @@ footer img {
 	flex-direction: row;
 	justify-content: center;
 	margin: 0 5px 0 0;
-	
 }
 
 #skills figure figure {
@@ -125,15 +124,14 @@ footer img {
 
 /* projects.html specific */
 #projects div {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	margin: -10px;
 }
 
+#projects div div figure h4 {
+	text-align: center;
+}
+
 #projects img {
-	display: flex;
-	flex-direction: column;
 	max-width: 100%;
 	height: auto;
 }
@@ -165,4 +163,66 @@ footer img {
 
 .orange {
 	color: #ffb86c;
+}
+
+/* larger screens get special treatment */
+@media all and (min-width: 1000px) {
+	body {
+		margin: 20px 10vw;
+	}
+	
+	h1 {
+		font-size: calc(15px + 4vw);
+	}
+	
+	main {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	/* index.html */
+	#skills figure {
+		margin: 0 10px;
+	}
+	
+	/* about.html */	
+	#about {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	#about img {
+		width: 50%;
+		height: 50%;
+		margin-right: 50px;
+	}
+	
+	/* projects.html */
+	#projects div {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	
+	/* nav-related */
+	nav {
+		justify-content: center;
+		flex-direction: row;
+	}
+	
+	nav ul {
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+		margin: 10px 25px;
+	}
+	
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+	
+	nav ul li a:active {
+		color: #bd93f9;
+	}
 }
